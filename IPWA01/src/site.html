@@ -11,18 +11,18 @@
             header nav ul { text-align: right; }
             header nav ul li { display: inline; }
         </style>
-        <section class="id-flex justify-content-start">
-            <img src="forest.jpg" class="rounded mx-auto d-block" alt="responsive Logo image">
-        </section>
         
     </head>
 
     <body>
 
-    <header class="d-flex justify-content-center py-3 border-bottom">
+    <header class="d-flex justify-content-between py-3 border-bottom">
+        <div class="row" style="margin-left: 0px">
+        <img src="forest.jpg" class="rounded mx-auto d-block d-flex justify-content-start" alt="responsive Logo image" width="80" height="80">
+        </div>
             <ul class="nav">
                 <li class="nav-item">
-                    <div class="input-group d-flex justify-content-center">
+                    <div class="input-group">
                         <input type="search" class="form-control rounded" placeholder="search ..." 
                         aria-label="Search" aria-describedby="search-addon" id="search" />
                         <button onclick="search()" type="button" class="btn btn-outline-dark">Click to Search</button>
